@@ -1,0 +1,364 @@
+#content{
+    font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    
+}
+
+body{
+    background-color:lightgray;
+    margin: 0px;
+}
+
+.hMenu{
+    display: inline;
+    padding-right: 20px;
+    font-size: 12px;
+    padding-top: 42px;
+    float:right;
+}
+
+#MainIcon{
+    padding-left: 20px;
+    padding-top: 2px;
+    float:left;
+}
+
+@media only screen and (max-width: 800px) {
+    #MainIcon{
+        padding-left: 0px;
+        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
+    .hMenu{
+        padding-right: 0px;
+        padding-top: 58px;
+        position: absolute;
+        top: 0px;
+    }
+    
+    #hMenu1{
+        right: 50%;
+        padding-right: 160px;
+    }
+    
+    #hMenu2{
+        right: 50%;
+        padding-right: 65px;
+    }
+    
+    #hMenu3{
+        left: 50%;
+        padding-left:65px;
+    }
+    
+    #hMenu4{
+        left: 50%;
+        padding-left:160px;
+    }   
+}
+
+@media only screen and (max-width: 500px) {
+    .hMenu{
+        padding-top: 182px;
+    }
+    
+    #hMenu1{
+        right: 50%;
+        padding-right: 93px;
+    }
+    
+    #hMenu2{
+        right: 50%;
+        padding-right: 5px;
+    }
+    
+    #hMenu3{
+        left: 50%;
+        padding-left:5px;
+    }
+    
+    #hMenu4{
+        left: 50%;
+        padding-left:93px;
+    }   
+}
+
+#line1{
+    clear:both;
+    text-align: center;
+    font-size: 40px;
+}
+
+#line2{
+    text-align: center;
+    font-size: 30px;
+    clear:both;
+    padding-top:02px;
+}
+
+@media only screen and (max-width: 500px) {
+    #line1{
+        font-size: 30px;
+    }
+
+    #line2{
+        font-size: 20px;
+    }
+    
+}
+
+#TopHTable{
+    background-color:white;
+    position: absolute;
+    top:44px;
+    width: 100%;
+    z-index: -1;
+}
+
+#TopHTR{
+    height: 40px;
+}
+
+#LogoText{
+    float:left;
+    margin-top: 28px;
+    padding-left: 16px;
+    font-size:30px;
+}
+
+@media only screen and (max-width: 800px) {
+    #LogoText{
+        clear:both;
+        float:none;
+        margin-top: 0px;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+#pCircleImages{
+      text-align: center;
+}
+
+.CircleImage{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.LowResLineBreak{
+    display:none;
+}
+
+@media only screen and (max-width: 800px) {
+  .CircleImage {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    .CircleImage{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom:15px;
+    }
+    
+    .LowResLineBreak{
+        display:block;
+    }
+}
+
+#leftoptext{
+    padding-top:20px;
+    text-align: left;
+    padding-left:20px;
+}
+
+@media only screen and (max-width: 800px) {
+    #leftoptext{
+        text-align: center;
+        padding-left:0px;
+    }
+}
+
+#righttoptext{
+    float:right;
+    padding-right:157px;
+}
+
+#BottomRightTable{
+    float:right;
+    padding-right:20px;
+    padding-top:6px;
+    width:260px;
+    text-align: right;
+}
+
+#BottomRightTR{
+    height: 600px;
+    display: inline;
+}
+
+#BottomRightText1{
+    float:right;
+    text-align: left;
+}
+
+#BottomRightImage1{
+    padding-top:5px;
+    float: left;
+}
+
+
+#BottomRightText2{
+    float:right;
+    text-align: left;
+    padding-top: 19px;
+}
+
+#BottomRightImage2{
+    padding-top:24px;
+    float: left;
+}
+
+#BottomRightText3{
+    float:right;
+    text-align: left;
+    padding-top: 19px;
+}
+
+#BottomRightImage3{
+    padding-top:24px;
+    float: left;
+}
+
+#BottomRightText4{
+    text-align: left;
+    font-weight: normal;
+    padding-top: 130px;
+}
+
+@media only screen and (max-width: 800px) {
+    #righttoptext{
+        display: none;
+    }
+    
+    #BottomRightTable{
+        display: none;
+    } 
+}
+
+#BlueImage{
+    padding-top:10px;
+    padding-left:20px;
+}
+
+#GreenImage{
+    padding-left: 30px;
+}
+
+#BottomBlueRecText{
+    padding-left:20px;
+    display: inline;
+}
+
+#BorromBlueRecCircles{
+    padding-left:47px;
+}
+
+#BottomGreenRecText{
+    padding-left:29px;
+    display: inline;
+}
+
+#BorromGreenRecCircles{
+    padding-left:47px;
+}
+
+#BrownImage{
+    padding-top:25px;
+    padding-left:20px;
+}
+
+#GrayImage{
+    padding-left: 30px;
+}
+
+
+#BottomBrownRecText{
+    padding-left:20px;
+    display: inline;
+}
+
+#BorromBrownRecCircles{
+    padding-left:47px;
+}
+
+#BottomGrayRecText{
+    padding-left:29px;
+    display: inline;
+}
+
+#BorromGrayRecCircles{
+    padding-left:47px;
+}
+
+@media only screen and (max-width: 500px) {
+    #GreenImage{
+        display: none;
+    }
+    
+    #BottomGreenRecText{
+        display: none;
+    }
+
+    #BorromGreenRecCircles{
+        display: none;
+    }
+
+    #BrownImage{
+        display: none;
+    }
+
+    #GrayImage{
+        display: none;
+    }
+
+    #BottomBrownRecText{
+        display: none;
+    }
+
+    #BorromBrownRecCircles{
+        display: none;
+    }
+
+    #BottomGrayRecText{
+        display: none;
+    }
+
+    #BorromGrayRecCircles{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {   
+    #BottomLeftHolder{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
